@@ -1,0 +1,5 @@
+title: Object descriptor based on point pairs combined with deep learning
+description: Supplementary material for the journal paper "Noise-resistant Deep Learning for Object Classification in 3D Point Clouds Using a Point Pair Descriptor" published in IEEE Robotics and Automation Letters
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-cayman
