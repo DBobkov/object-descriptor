@@ -12,7 +12,7 @@ Object retrieval and classification in point cloud data is challenged by noise, 
 1. 
 2. 
 
-For full-text of the paper, see <a href=""> Preprint </a> or <a href="">IEEE version</a>. 
+For full-text of the paper, see <a href="https://doi.org/10.1109/LRA.2018.2792681"> Preprint </a> or <a href="">IEEE version</a>. 
 
 # Basic intuition
 
