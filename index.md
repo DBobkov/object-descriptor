@@ -13,39 +13,31 @@ Object retrieval and classification in point cloud data is challenged by noise, 
 
 2. We design a handcrafted point pair function-based 4D descriptor that offers high robustness for realistic noisy point cloud data.
 
-
- 
 For full-text of the paper, see <a href="https://doi.org/10.1109/LRA.2018.2792681">IEEE version</a>. For video, see <a href="https://youtu.be/HssM36t6K3c"> youtube video </a>.
-
-
 
 # Overview of the pipeline
 
 <img src="res/teaser_figure_revision.png" alt="Overview of the pipeline" width="1250">
-Fig. 1. Overview of the proposed object classification pipeline that is a combination of a novel handcrafted descriptor and a 4D convolutional neural network (CNN). For details on the network architecture and layer dimensions, see Fig. 6 and Table I. Here, FC denotes a fully connected layer. 
+Fig.  Overview of the proposed object classification pipeline that is a combination of a novel handcrafted descriptor and a 4D convolutional neural network (CNN). Here, FC denotes a fully connected layer. 
 
 <img src="res/neural_network_details_very_small.png" alt="Neural network architecture details" width="864">
-Architecture of the proposed 4D neural network. See Table I for more details on the dimensions.
+Fig. Architecture of the proposed 4D neural network. 
 
 
 # Results
 
 <img src="res/retrieval_results.png" alt="Retrieval results" width="1386">
-
-TABLE II. Retrieval performance of the handcrafted descriptors. The mean value is given in the corresponding column, while
+TABLE I. Retrieval performance of the handcrafted descriptors. The mean value is given in the corresponding column, while
 the standard deviation is given in brackets. Best performance is shown in bold.
 
 <img src="res/deep_learning_results.png" alt="Retrieval results" width="901">
-
-Table III. Classification performance of deep learning approaches using 2D, 3D and 4D convolutional layers.
+Table II. Classification performance of deep learning approaches using 2D, 3D and 4D convolutional layers.
 
 <img src="res/intuition_deep_network.png" alt="Retrieval results" width="665">
-
-Fig.  Descriptor and 4D neural network responses for the object table in the ScanNet dataset. Left: descriptor values. Middle: response of the first filter in the first layer. Right: filter response in the second layer. The rows show slices of the fourth dimension. Transparent bins correspond to constant offset values for the response (or 0 for the descriptor values), colored bins - to varying values. The bins are colored so that low values are shown in blue color, while high in red.
+Fig. Descriptor and 4D neural network responses for the object table in the ScanNet dataset. Left: descriptor values. Middle: response of the first filter in the first layer. Right: filter response in the second layer. The rows show slices of the fourth dimension. Transparent bins correspond to constant offset values for the response (or 0 for the descriptor values), colored bins - to varying values. The bins are colored so that low values are shown in blue color, while high in red.
 
 
 # References
-
 1. C. R. Qi, H. Su, K. Mo, and L. J. Guibas, “Pointnet: Deep learning on point sets for 3d classification and segmentation,” Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
 2. E. Wahl, U. Hillenbrand, and G. Hirzinger, “Surflet-pair-relation histograms: a statistical 3d-shape representation for rapid classification,” in Proceedings of IEEE International Conference on 3-D Digital Imaging and Modeling (3DIM), 2003, pp. 474–481.
@@ -55,4 +47,4 @@ Fig.  Descriptor and 4D neural network responses for the object table in the Sca
 # Contact
 For any questions or inquiries, please contact Dmytro Bobkov at dmytro.bobkov@tum.de with a subject "Object Descriptor RAL".
 
-Last updated 19.01.2018 13:24
+Last updated 19.01.2018 13:34
