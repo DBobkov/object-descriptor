@@ -9,8 +9,12 @@ Object retrieval and classification in point cloud data is challenged by noise, 
 
 # Main contributions
 
-1. 
-2. 
+1. We present a novel 4D convolutional neural network architecture that takes a 4D descriptor as input and out performs existing deep learning approaches on realistic point cloud datasets.
+2. We design a handcrafted point pair function-based 4D descriptor that offers high robustness for realistic noisy point cloud data.
+
+
+ 
+
 
 For full-text of the paper, see <a href="https://doi.org/10.1109/LRA.2018.2792681"> Preprint </a> or <a href="">IEEE version</a>. 
 
@@ -20,9 +24,7 @@ For full-text of the paper, see <a href="https://doi.org/10.1109/LRA.2018.279268
 
 # Overview of the pipeline
 
-
-
-
+<embed src="res/teaser_figure_revision.pdf.pdf" width="1250" height="550" type='application/pdf'>
 
 # Results
 
