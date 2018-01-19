@@ -54,3 +54,5 @@ Fig.  Descriptor and 4D neural network responses for the object table in the Sca
 
 # Contact
 For any questions or inquiries, please contact Dmytro Bobkov at dmytro.bobkov@tum.de with a subject "Object Descriptor RAL".
+
+Last updated 19.01.2018 13:24
