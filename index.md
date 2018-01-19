@@ -24,10 +24,15 @@ For full-text of the paper, see <a href="https://doi.org/10.1109/LRA.2018.279268
 
 # Overview of the pipeline
 
-<embed src="res/teaser_figure_revision.pdf" width="1250" height="550" type='application/pdf'>
+<embed src="res/teaser_figure_revision.pdf" width="1350" height="650" type='application/pdf'>
 
 
-<img src="res/teaser_figure_revision.png" alt="Room1" width="1250" height="550">
+<img src="res/teaser_figure_revision.png" alt="Teaser figure revision">
+
+
+<img src="res/neural_network_details_very_small.png" alt="Neural network architecture details" width="432" height="102">
+
+
 
 
 # Results
