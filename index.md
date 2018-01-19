@@ -15,7 +15,7 @@ Object retrieval and classification in point cloud data is challenged by noise, 
 
 For full-text of the paper, see <a href="https://doi.org/10.1109/LRA.2018.2792681">IEEE version</a>.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HssM36t6K3c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="1270" height="720" src="https://www.youtube.com/embed/HssM36t6K3c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Code to be uploaded later.
 
