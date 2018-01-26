@@ -38,6 +38,7 @@ the standard deviation is given in brackets. Best performance is shown in bold.
 Table II. Classification performance of deep learning approaches using 2D, 3D and 4D convolutional layers.
 
 <img src="res/intuition_deep_network.png" alt="Retrieval results" width="665">
+
 Fig. Descriptor and 4D neural network responses for the object table in the ScanNet dataset. Left: descriptor values. Middle: response of the first filter in the first layer. Right: filter response in the second layer. The rows show slices of the fourth dimension. Transparent bins correspond to constant offset values for the response (or 0 for the descriptor values), colored bins - to varying values. The bins are colored so that low values are shown in blue color, while high in red.
 
 
@@ -49,6 +50,9 @@ Fig. Descriptor and 4D neural network responses for the object table in the Scan
 
 
 # Contact
-For any questions or inquiries, please contact Dmytro Bobkov at dmytro.bobkov@tum.de with a subject "Object Descriptor RAL".
+For any questions or inquiries, please contact Dmytro Bobkov at <email address below> with a subject "Object Descriptor RAL".
+
+<img src="res/email.png" alt="Email" width="50">
+
 
 Last updated 19.01.2018 13:34
