@@ -50,9 +50,9 @@ Fig. Descriptor and 4D neural network responses for the object table in the Scan
 
 
 # Contact
-For any questions or inquiries, please contact Dmytro Bobkov at <email address below> with a subject "Object Descriptor RAL".
+For any questions or inquiries, please contact Dmytro Bobkov at _email address below_ with a subject "Object Descriptor RAL".
 
-<img src="res/email.png" alt="Email" width="50">
+<img src="res/email.png" alt="Email" width="150">
 
 
 Last updated 19.01.2018 13:34
