@@ -42,6 +42,57 @@ Table II. Classification performance of deep learning approaches using 2D, 3D an
 Fig. Descriptor and 4D neural network responses for the object table in the ScanNet dataset. Left: descriptor values. Middle: response of the first filter in the first layer. Right: filter response in the second layer. The rows show slices of the fourth dimension. Transparent bins correspond to constant offset values for the response (or 0 for the descriptor values), colored bins - to varying values. The bins are colored so that low values are shown in blue color, while high in red.
 
 
+# Test
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-mb3i{background-color:#D2E4FC;text-align:right;vertical-align:top}
+.tg .tg-lqy6{text-align:right;vertical-align:top}
+.tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-baqh" colspan="6">Results</th>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">No</td>
+    <td class="tg-6k2t">Competition</td>
+    <td class="tg-6k2t">John</td>
+    <td class="tg-6k2t">Adam</td>
+    <td class="tg-6k2t">Robert</td>
+    <td class="tg-6k2t">Paul</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">1</td>
+    <td class="tg-yw4l">Swimming</td>
+    <td class="tg-lqy6">1:30</td>
+    <td class="tg-lqy6">2:05</td>
+    <td class="tg-lqy6">1:15</td>
+    <td class="tg-lqy6">1:41</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">2</td>
+    <td class="tg-6k2t">Running</td>
+    <td class="tg-mb3i">15:30</td>
+    <td class="tg-mb3i">14:10</td>
+    <td class="tg-mb3i">15:45</td>
+    <td class="tg-mb3i">16:00</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">3</td>
+    <td class="tg-yw4l">Shooting</td>
+    <td class="tg-lqy6">70%</td>
+    <td class="tg-lqy6">55%</td>
+    <td class="tg-lqy6">90%</td>
+    <td class="tg-lqy6">88%</td>
+  </tr>
+</table>
+
+
 # References
 1. C. R. Qi, H. Su, K. Mo, and L. J. Guibas, “Pointnet: Deep learning on point sets for 3d classification and segmentation,” Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
@@ -50,9 +101,9 @@ Fig. Descriptor and 4D neural network responses for the object table in the Scan
 
 
 # Contact
-For any questions or inquiries, please contact Dmytro Bobkov at _email address below_ with a subject "Object Descriptor RAL".
-
-<img src="res/email.png" alt="Email" width="150">
+For any questions or inquiries, please contact Dmytro Bobkov at <img src="res/email.png" alt="Email" width="150"> with a subject "Object Descriptor RAL".
 
 
-Last updated 19.01.2018 13:34
+
+
+Last updated 21.02.2018
