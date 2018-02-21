@@ -159,8 +159,122 @@ the standard deviation is given in brackets. Best performance is shown in bold.
 </table>
 
 
-<img src="res/deep_learning_results.png" alt="Retrieval results" width="901">
 Table II. Classification performance of deep learning approaches using 2D, 3D and 4D convolutional layers.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-vn4c{background-color:#D2E4FC}
+.tg .tg-804w{font-family:Arial, Helvetica, sans-serif !important;;text-align:center;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+.tg .tg-j0tj{background-color:#D2E4FC;text-align:center;vertical-align:top}
+.tg .tg-7k3a{background-color:#D2E4FC;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5hgy{background-color:#D2E4FC;text-align:center}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Dataset</th>
+    <th class="tg-baqh">Metric</th>
+    <th class="tg-baqh">PointNet</th>
+    <th class="tg-baqh">EPPF 2D</th>
+    <th class="tg-baqh">EPPF 3D</th>
+    <th class="tg-baqh">EPPF 4D</th>
+  </tr>
+  <tr>
+    <td class="tg-vn4c" rowspan="4">Stanford</td>
+    <td class="tg-j0tj">Total accuracy (%)</td>
+    <td class="tg-j0tj">64.30</td>
+    <td class="tg-j0tj">82.01</td>
+    <td class="tg-j0tj">81.94</td>
+    <td class="tg-7k3a">83.22</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Mean accuracy (%)</td>
+    <td class="tg-baqh">42.48</td>
+    <td class="tg-baqh">64.26</td>
+    <td class="tg-amwm">66.37</td>
+    <td class="tg-baqh">65.11</td>
+  </tr>
+  <tr>
+    <td class="tg-j0tj">Mean recall (%)</td>
+    <td class="tg-j0tj">40.47</td>
+    <td class="tg-j0tj">70.88</td>
+    <td class="tg-j0tj">60.94</td>
+    <td class="tg-7k3a">72.13</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">F1-score</td>
+    <td class="tg-baqh">0.395</td>
+    <td class="tg-baqh">0.652</td>
+    <td class="tg-baqh">0.665</td>
+    <td class="tg-amwm">0.672</td>
+  </tr>
+  <tr>
+    <td class="tg-vn4c" rowspan="4">ScanNet</td>
+    <td class="tg-j0tj">Total accuracy (%)</td>
+    <td class="tg-j0tj">63.04</td>
+    <td class="tg-j0tj">70.39</td>
+    <td class="tg-j0tj">70.57</td>
+    <td class="tg-7k3a">72.10</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Mean accuracy (%)</td>
+    <td class="tg-baqh">37.50</td>
+    <td class="tg-baqh">38.98</td>
+    <td class="tg-804w">44.35</td>
+    <td class="tg-amwm">45.70</td>
+  </tr>
+  <tr>
+    <td class="tg-j0tj">Mean recall (%)</td>
+    <td class="tg-j0tj">19.53</td>
+    <td class="tg-7k3a">63.52</td>
+    <td class="tg-j0tj">54.53</td>
+    <td class="tg-j0tj">56.58</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">F1-score</td>
+    <td class="tg-baqh">0.209</td>
+    <td class="tg-baqh">0.433</td>
+    <td class="tg-baqh">0.472</td>
+    <td class="tg-amwm">0.488</td>
+  </tr>
+  <tr>
+    <td class="tg-5hgy" rowspan="4">M40</td>
+    <td class="tg-j0tj">Total accuracy (%)</td>
+    <td class="tg-7k3a">87.01</td>
+    <td class="tg-j0tj">81.64</td>
+    <td class="tg-j0tj">81.15</td>
+    <td class="tg-j0tj">82.13</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Mean accuracy (%)</td>
+    <td class="tg-amwm">82.08</td>
+    <td class="tg-baqh">76.37</td>
+    <td class="tg-baqh">75.87</td>
+    <td class="tg-baqh">77.05</td>
+  </tr>
+  <tr>
+    <td class="tg-j0tj">Mean recall (%)</td>
+    <td class="tg-7k3a">83.48</td>
+    <td class="tg-j0tj">77.30</td>
+    <td class="tg-j0tj">77.51</td>
+    <td class="tg-j0tj">76.99</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">F1-score</td>
+    <td class="tg-amwm">0.824</td>
+    <td class="tg-baqh">0.765</td>
+    <td class="tg-baqh">0.762</td>
+    <td class="tg-baqh">0.769</td>
+  </tr>
+</table>
+
+
+
+
 
 <img src="res/intuition_deep_network.png" alt="Retrieval results" width="665">
 
