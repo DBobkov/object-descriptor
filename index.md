@@ -44,127 +44,117 @@ Fig. Descriptor and 4D neural network responses for the object table in the Scan
 
 # Test
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-j0tj{background-color:#D2E4FC;text-align:center;vertical-align:top}
-.tg .tg-yw4l{vertical-align:top}
-.tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}
-</style>
-<table class="tg">
+<table>
   <tr>
-    <th class="tg-031e" rowspan="2">Dataset</th>
-    <th class="tg-s6z2" rowspan="2">Metric</th>
-    <th class="tg-baqh" colspan="5">Descriptor</th>
+    <th rowspan="2">Dataset</th>
+    <th rowspan="2">Metric</th>
+    <th colspan="5">Descriptor</th>
   </tr>
   <tr>
-    <td class="tg-j0tj">OUR-CVFH</td>
-    <td class="tg-j0tj">ESF</td>
-    <td class="tg-j0tj">Wahl</td>
-    <td class="tg-j0tj">EPPF Short</td>
-    <td class="tg-j0tj">EPPF</td>
+    <td>OUR-CVFH</td>
+    <td>ESF</td>
+    <td>Wahl</td>
+    <td>EPPF Short</td>
+    <td>EPPF</td>
   </tr>
   <tr>
-    <td class="tg-031e" rowspan="4">Stanford</td>
-    <td class="tg-yw4l">Total accuracy (%)</td>
-    <td class="tg-baqh">62.79</td>
-    <td class="tg-baqh">71.34</td>
-    <td class="tg-baqh">75.13</td>
-    <td class="tg-baqh">77.26</td>
-    <td class="tg-baqh">80.18</td>
+    <td rowspan="4">Stanford</td>
+    <td>Total accuracy (%)</td>
+    <td>62.79</td>
+    <td>71.34</td>
+    <td>75.13</td>
+    <td>77.26</td>
+    <td>80.18</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">Mean accuracy</td>
-    <td class="tg-j0tj">42.91</td>
-    <td class="tg-j0tj">54.54</td>
-    <td class="tg-j0tj">57.00</td>
-    <td class="tg-j0tj">60.53</td>
-    <td class="tg-j0tj">64.01</td>
+    <td>Mean accuracy (%)</td>
+    <td>42.91</td>
+    <td>54.54</td>
+    <td>57.00</td>
+    <td>60.53</td>
+    <td>64.01</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">Mean recall</td>
-    <td class="tg-baqh">49.90</td>
-    <td class="tg-baqh">52.28</td>
-    <td class="tg-baqh">57.45</td>
-    <td class="tg-baqh">60.16</td>
-    <td class="tg-baqh">64.58</td>
+    <td>Mean recall (%)</td>
+    <td>49.90</td>
+    <td>52.28</td>
+    <td>57.45</td>
+    <td>60.16</td>
+    <td>64.58</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">F1-score</td>
-    <td class="tg-j0tj">0.437</td>
-    <td class="tg-j0tj">0.530</td>
-    <td class="tg-j0tj">0.567</td>
-    <td class="tg-j0tj">0.601</td>
-    <td class="tg-j0tj">0.640</td>
+    <td>F1-score</td>
+    <td>0.437</td>
+    <td>0.530</td>
+    <td>0.567</td>
+    <td>0.601</td>
+    <td>0.640</td>
   </tr>
   <tr>
-    <td class="tg-031e" rowspan="4">ScanNet</td>
-    <td class="tg-yw4l">Total accuracy</td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
+    <td rowspan="4">ScanNet</td>
+    <td>Total accuracy (%)</td>
+    <td>56.23</td>
+    <td>53.41</td>
+    <td>63.72</td>
+    <td>63.49</td>
+    <td>65.29</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">Mean accuracy</td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
+    <td>Mean accuracy (%)</td>
+    <td>39.83</td>
+    <td>33.69</td>
+    <td>45.40</td>
+    <td>42.02</td>
+    <td>44.95</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">Mean recall</td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
+    <td>Mean recall (%)</td>
+    <td>38.21</td>
+    <td>32.72</td>
+    <td>45.94</td>
+    <td>45.17</td>
+    <td>47.54</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">F1-score</td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
+    <td>F1-score</td>
+    <td>0.382</td>
+    <td>0.327</td>
+    <td>0.444</td>
+    <td>0.430</td>
+    <td>0.457</td>
   </tr>
   <tr>
-    <td class="tg-031e" rowspan="4">M40</td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
+    <td rowspan="4">M40</td>
+    <td>Total accuracy (%)</td>
+    <td>53.22</td>
+    <td>65.87</td>
+    <td>74.41</td>
+    <td>73.00</td>
+    <td>73.68</td>
   </tr>
   <tr>
-    <td class="tg-6k2t"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
+    <td>Mean accuracy (%)</td>
+    <td>46.43</td>
+    <td>58.91</td>
+    <td>67.50</td>
+    <td>65.79</td>
+    <td>66.43</td>
   </tr>
   <tr>
-    <td class="tg-yw4l"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
+    <td>Mean recall (%)</td>
+    <td>49.26</td>
+    <td>59.96</td>
+    <td>70.33</td>
+    <td>69.12</td>
+    <td>69.79</td>
   </tr>
   <tr>
-    <td class="tg-6k2t"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
-    <td class="tg-j0tj"></td>
+    <td>F1-score</td>
+    <td>0.465</td>
+    <td>0.588</td>
+    <td>0.680</td>
+    <td>0.666</td>
+    <td>0.671</td>
   </tr>
 </table>
 
