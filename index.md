@@ -48,47 +48,123 @@ Fig. Descriptor and 4D neural network responses for the object table in the Scan
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+.tg .tg-s6z2{text-align:center}
 .tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-mb3i{background-color:#D2E4FC;text-align:right;vertical-align:top}
-.tg .tg-lqy6{text-align:right;vertical-align:top}
-.tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}
+.tg .tg-j0tj{background-color:#D2E4FC;text-align:center;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top}
+.tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-baqh" colspan="6">Results</th>
+    <th class="tg-031e" rowspan="2">Dataset</th>
+    <th class="tg-s6z2" rowspan="2">Metric</th>
+    <th class="tg-baqh" colspan="5">Descriptor</th>
   </tr>
   <tr>
-    <td class="tg-6k2t">No</td>
-    <td class="tg-6k2t">Competition</td>
-    <td class="tg-6k2t">John</td>
-    <td class="tg-6k2t">Adam</td>
-    <td class="tg-6k2t">Robert</td>
-    <td class="tg-6k2t">Paul</td>
+    <td class="tg-j0tj">OUR-CVFH</td>
+    <td class="tg-j0tj">ESF</td>
+    <td class="tg-j0tj">Wahl</td>
+    <td class="tg-j0tj">EPPF Short</td>
+    <td class="tg-j0tj">EPPF</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">1</td>
-    <td class="tg-yw4l">Swimming</td>
-    <td class="tg-lqy6">1:30</td>
-    <td class="tg-lqy6">2:05</td>
-    <td class="tg-lqy6">1:15</td>
-    <td class="tg-lqy6">1:41</td>
+    <td class="tg-031e" rowspan="4">Stanford</td>
+    <td class="tg-yw4l">Total accuracy (%)</td>
+    <td class="tg-baqh">62.79</td>
+    <td class="tg-baqh">71.34</td>
+    <td class="tg-baqh">75.13</td>
+    <td class="tg-baqh">77.26</td>
+    <td class="tg-baqh">80.18</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">2</td>
-    <td class="tg-6k2t">Running</td>
-    <td class="tg-mb3i">15:30</td>
-    <td class="tg-mb3i">14:10</td>
-    <td class="tg-mb3i">15:45</td>
-    <td class="tg-mb3i">16:00</td>
+    <td class="tg-6k2t">Mean accuracy</td>
+    <td class="tg-j0tj">42.91</td>
+    <td class="tg-j0tj">54.54</td>
+    <td class="tg-j0tj">57.00</td>
+    <td class="tg-j0tj">60.53</td>
+    <td class="tg-j0tj">64.01</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">3</td>
-    <td class="tg-yw4l">Shooting</td>
-    <td class="tg-lqy6">70%</td>
-    <td class="tg-lqy6">55%</td>
-    <td class="tg-lqy6">90%</td>
-    <td class="tg-lqy6">88%</td>
+    <td class="tg-yw4l">Mean recall</td>
+    <td class="tg-baqh">49.90</td>
+    <td class="tg-baqh">52.28</td>
+    <td class="tg-baqh">57.45</td>
+    <td class="tg-baqh">60.16</td>
+    <td class="tg-baqh">64.58</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">F1-score</td>
+    <td class="tg-j0tj">0.437</td>
+    <td class="tg-j0tj">0.530</td>
+    <td class="tg-j0tj">0.567</td>
+    <td class="tg-j0tj">0.601</td>
+    <td class="tg-j0tj">0.640</td>
+  </tr>
+  <tr>
+    <td class="tg-031e" rowspan="4">ScanNet</td>
+    <td class="tg-yw4l">Total accuracy</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">Mean accuracy</td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Mean recall</td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">F1-score</td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+  </tr>
+  <tr>
+    <td class="tg-031e" rowspan="4">M40</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
+    <td class="tg-j0tj"></td>
   </tr>
 </table>
 
