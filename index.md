@@ -34,14 +34,15 @@ TABLE I. Retrieval performance of the handcrafted descriptors. The mean value is
 the standard deviation is given in brackets. Best performance is shown in bold.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 6px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 6px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
 .tg .tg-s6z2{text-align:center}
 .tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-j0tj{background-color:#D2E4FC;text-align:center;vertical-align:top}
 .tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
 .tg .tg-7k3a{background-color:#D2E4FC;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-9bc1{background-color:#D2E4FC;font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
@@ -102,7 +103,7 @@ the standard deviation is given in brackets. Best performance is shown in bold.
     <td class="tg-j0tj">Mean accuracy (%)</td>
     <td class="tg-j0tj">39.83</td>
     <td class="tg-j0tj">33.69</td>
-    <td class="tg-7k3a">45.40</td>
+    <td class="tg-9bc1">45.40</td>
     <td class="tg-j0tj">42.02</td>
     <td class="tg-j0tj">44.95</td>
   </tr>
