@@ -40,6 +40,8 @@ the standard deviation is given in brackets. Best performance is shown in bold.
 .tg .tg-s6z2{text-align:center}
 .tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-j0tj{background-color:#D2E4FC;text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-7k3a{background-color:#D2E4FC;font-weight:bold;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
@@ -61,7 +63,7 @@ the standard deviation is given in brackets. Best performance is shown in bold.
     <td class="tg-baqh">71.34</td>
     <td class="tg-baqh">75.13</td>
     <td class="tg-baqh">77.26</td>
-    <td class="tg-baqh">80.18</td>
+    <td class="tg-amwm">80.18</td>
   </tr>
   <tr>
     <td class="tg-j0tj">Mean accuracy (%)</td>
@@ -69,7 +71,7 @@ the standard deviation is given in brackets. Best performance is shown in bold.
     <td class="tg-j0tj">54.54</td>
     <td class="tg-j0tj">57.00</td>
     <td class="tg-j0tj">60.53</td>
-    <td class="tg-j0tj">64.01</td>
+    <td class="tg-7k3a">64.01</td>
   </tr>
   <tr>
     <td class="tg-baqh">Mean recall (%)</td>
@@ -77,7 +79,7 @@ the standard deviation is given in brackets. Best performance is shown in bold.
     <td class="tg-baqh">52.28</td>
     <td class="tg-baqh">57.45</td>
     <td class="tg-baqh">60.16</td>
-    <td class="tg-baqh">64.58</td>
+    <td class="tg-amwm">64.58</td>
   </tr>
   <tr>
     <td class="tg-j0tj">F1-score</td>
@@ -85,7 +87,7 @@ the standard deviation is given in brackets. Best performance is shown in bold.
     <td class="tg-j0tj">0.530</td>
     <td class="tg-j0tj">0.567</td>
     <td class="tg-j0tj">0.601</td>
-    <td class="tg-j0tj">0.640</td>
+    <td class="tg-7k3a">0.640</td>
   </tr>
   <tr>
     <td class="tg-031e" rowspan="4">ScanNet</td>
@@ -94,13 +96,13 @@ the standard deviation is given in brackets. Best performance is shown in bold.
     <td class="tg-baqh">53.41</td>
     <td class="tg-baqh">63.72</td>
     <td class="tg-baqh">63.49</td>
-    <td class="tg-baqh">65.29</td>
+    <td class="tg-amwm">65.29</td>
   </tr>
   <tr>
     <td class="tg-j0tj">Mean accuracy (%)</td>
     <td class="tg-j0tj">39.83</td>
     <td class="tg-j0tj">33.69</td>
-    <td class="tg-j0tj">45.40</td>
+    <td class="tg-7k3a">45.40</td>
     <td class="tg-j0tj">42.02</td>
     <td class="tg-j0tj">44.95</td>
   </tr>
@@ -110,7 +112,7 @@ the standard deviation is given in brackets. Best performance is shown in bold.
     <td class="tg-baqh">32.72</td>
     <td class="tg-baqh">45.94</td>
     <td class="tg-baqh">45.17</td>
-    <td class="tg-baqh">47.54</td>
+    <td class="tg-amwm">47.54</td>
   </tr>
   <tr>
     <td class="tg-j0tj">F1-score</td>
@@ -118,14 +120,14 @@ the standard deviation is given in brackets. Best performance is shown in bold.
     <td class="tg-j0tj">0.327</td>
     <td class="tg-j0tj">0.444</td>
     <td class="tg-j0tj">0.430</td>
-    <td class="tg-j0tj">0.457</td>
+    <td class="tg-7k3a">0.457</td>
   </tr>
   <tr>
     <td class="tg-s6z2" rowspan="4">M40</td>
     <td class="tg-baqh">Total accuracy (%)</td>
     <td class="tg-baqh">53.22</td>
     <td class="tg-baqh">65.87</td>
-    <td class="tg-baqh">74.41</td>
+    <td class="tg-amwm">74.41</td>
     <td class="tg-baqh">73.00</td>
     <td class="tg-baqh">73.68</td>
   </tr>
@@ -133,7 +135,7 @@ the standard deviation is given in brackets. Best performance is shown in bold.
     <td class="tg-j0tj">Mean accuracy (%)</td>
     <td class="tg-j0tj">46.43</td>
     <td class="tg-j0tj">58.91</td>
-    <td class="tg-j0tj">67.50</td>
+    <td class="tg-7k3a">67.50</td>
     <td class="tg-j0tj">65.79</td>
     <td class="tg-j0tj">66.43</td>
   </tr>
@@ -141,7 +143,7 @@ the standard deviation is given in brackets. Best performance is shown in bold.
     <td class="tg-baqh">Mean recall (%)</td>
     <td class="tg-baqh">49.26</td>
     <td class="tg-baqh">59.96</td>
-    <td class="tg-baqh">70.33</td>
+    <td class="tg-amwm">70.33</td>
     <td class="tg-baqh">69.12</td>
     <td class="tg-baqh">69.79</td>
   </tr>
@@ -149,7 +151,7 @@ the standard deviation is given in brackets. Best performance is shown in bold.
     <td class="tg-j0tj">F1-score</td>
     <td class="tg-j0tj">0.465</td>
     <td class="tg-j0tj">0.588</td>
-    <td class="tg-j0tj">0.680</td>
+    <td class="tg-7k3a">0.680</td>
     <td class="tg-j0tj">0.666</td>
     <td class="tg-j0tj">0.671</td>
   </tr>
