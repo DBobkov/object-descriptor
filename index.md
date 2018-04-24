@@ -24,7 +24,7 @@ Object retrieval and classification in point cloud data is challenged by noise, 
 
 2. We design a handcrafted point pair function-based 4D descriptor that offers high robustness for realistic noisy point cloud data.
 
-For full-text of the paper, see <a href="https://doi.org/10.1109/LRA.2018.2792681">IEEE version</a>.
+For full-text of the paper, see <a href="https://doi.org/10.1109/LRA.2018.2792681">IEEE version</a>. Preprint available at <a href="https://arxiv.org/abs/1804.02077">Arxiv</a>
 
 <iframe width="846" height="480" src="https://www.youtube.com/embed/kQ6w4xA9VeU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
