@@ -7,6 +7,17 @@ layout: default
 Object retrieval and classification in point cloud data is challenged by noise, irregular sampling density and occlusion. To address this issue, we propose a point pair descriptor that is robust to noise and occlusion and achieves high retrieval accuracy. We further show how the proposed descriptor can be used in a 4D convolutional neural network for the task of object classification. We propose a novel 4D convolutional layer that is able to learn class-specific clusters in the descriptor histograms. Finally, we provide experimental validation on 3 benchmark datasets, which confirms the superiority of the proposed approach.
 
 
+# Paper preview
+<img src="res/thumb-0.png" alt="Overview of the pipeline" width="300">
+<img src="res/thumb-1.png" alt="Overview of the pipeline" width="300">
+<img src="res/thumb-2.png" alt="Overview of the pipeline" width="300">
+<img src="res/thumb-3.png" alt="Overview of the pipeline" width="300">
+<img src="res/thumb-4.png" alt="Overview of the pipeline" width="300">
+<img src="res/thumb-5.png" alt="Overview of the pipeline" width="300">
+<img src="res/thumb-6.png" alt="Overview of the pipeline" width="300">
+<img src="res/thumb-7.png" alt="Overview of the pipeline" width="300">
+
+
 # Main contributions
 
 1. We present a novel 4D convolutional neural network architecture that takes a 4D descriptor as input and outperforms existing deep learning approaches on realistic point cloud datasets.
