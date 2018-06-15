@@ -14,9 +14,3 @@ m40_desc_dataset_dict = {'occludedM40Dataset': '/mnt/data4/staff/dima/ModelNet40
                          'noisy010M40Dataset': '/mnt/data4/staff/dima/ModelNet40/noisy010M40/',
                          'noisy007M40Dataset': '/mnt/data4/staff/dima/ModelNet40/noisy007M40/',
                          'noisy015M40Dataset': '/mnt/data4/staff/dima/ModelNet40/noisy015M40/', }
-
-daimler_dataset_dict = {
-    'artificialDaimlerDataset': '/mnt/data/Daimler_Confidential/ContainerArtificialTrainingData/ActualDataset/4dcnn_twoclass_dataset/',
-    'artificialDaimlerDatasetV7': '/mnt/data/Daimler_Confidential/ContainerArtificialTrainingData/3D_approach/DebugDatasetV7/',
-    'artificialDaimlerDatasetV7Local': '/media/ga56den/Data/Datasets/Daimler/ContainerArtificialTrainingData/DebugDatasetV7/3d_dataset/',
-    'artificialDaimlerDatasetLocal': '/media/ga56den/Data/Datasets/Daimler/ContainerArtificialTrainingData/4dcnn_twoclass_dataset/'}
