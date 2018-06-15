@@ -7,7 +7,7 @@ class LearningParameters:
     dropout_prob = 0.5  # 0.5
     adam_opt_learn_rate = 5 * 1e-4  # e-2 too large, e-3 fine, e-4 too slow
 
-    # Reduced network size (comparable to (Qi et al., pointnet 2017) now! 7,413,906 parameters)
+    # Network size with 7,413,906 parameters)
     layer1_feature_maps_num = 32
     layer2_feature_maps_num = 64
     layer3_feature_maps_num = 48
